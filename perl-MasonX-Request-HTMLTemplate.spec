@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	MasonX
-%define	pnam	Request-HTMLTemplate
+%define		pdir	MasonX
+%define		pnam	Request-HTMLTemplate
 Summary:	MasonX::Request::HTMLTemplate - add templates to the Mason Request object
 Summary(pl):	MasonX::Request::HTMLTemplate - dodawanie szablonów do obiektu Mason Request
 Name:		perl-MasonX-Request-HTMLTemplate
