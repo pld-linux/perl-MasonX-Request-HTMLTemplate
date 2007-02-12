@@ -6,7 +6,7 @@
 %define		pdir	MasonX
 %define		pnam	Request-HTMLTemplate
 Summary:	MasonX::Request::HTMLTemplate - add templates to the Mason Request object
-Summary(pl):	MasonX::Request::HTMLTemplate - dodawanie szablonów do obiektu Mason Request
+Summary(pl.UTF-8):   MasonX::Request::HTMLTemplate - dodawanie szablonÃ³w do obiektu Mason Request
 Name:		perl-MasonX-Request-HTMLTemplate
 Version:	0.05
 Release:	1
@@ -31,12 +31,12 @@ This module tries to add two peculiar functionalities to Mason:
 to produce a framework with all power of Mason but by separating
 completely the script language from the graphical interface language.
 
-%description -l pl
-Ten modu³ próbuje dodaæ dwie szczególne funkcjonalno¶ci do Masona:
- - ³atwe u¿ywanie szablonów;
- - ³atwe budowanie zlokalizowanych serwisów WWW
-aby stworzyæ szkielet z ca³± si³± Masona, ale oddzielaj±c ca³kowicie
-jêzyk skryptowy od jêzyka interfejsu graficznego.
+%description -l pl.UTF-8
+Ten moduÅ‚ prÃ³buje dodaÄ‡ dwie szczegÃ³lne funkcjonalnoÅ›ci do Masona:
+ - Å‚atwe uÅ¼ywanie szablonÃ³w;
+ - Å‚atwe budowanie zlokalizowanych serwisÃ³w WWW
+aby stworzyÄ‡ szkielet z caÅ‚Ä… siÅ‚Ä… Masona, ale oddzielajÄ…c caÅ‚kowicie
+jÄ™zyk skryptowy od jÄ™zyka interfejsu graficznego.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
