@@ -6,7 +6,7 @@
 %define		pdir	MasonX
 %define		pnam	Request-HTMLTemplate
 Summary:	MasonX::Request::HTMLTemplate - add templates to the Mason Request object
-Summary(pl.UTF-8):   MasonX::Request::HTMLTemplate - dodawanie szablonów do obiektu Mason Request
+Summary(pl.UTF-8):	MasonX::Request::HTMLTemplate - dodawanie szablonów do obiektu Mason Request
 Name:		perl-MasonX-Request-HTMLTemplate
 Version:	0.05
 Release:	1
