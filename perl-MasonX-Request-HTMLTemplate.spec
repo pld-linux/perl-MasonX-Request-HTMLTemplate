@@ -8,16 +8,17 @@
 Summary:	MasonX::Request::HTMLTemplate - add templates to the Mason Request object
 Summary(pl.UTF-8):	MasonX::Request::HTMLTemplate - dodawanie szablonów do obiektu Mason Request
 Name:		perl-MasonX-Request-HTMLTemplate
-Version:	0.05
+Version:	0.06
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f36c65732f9da854cc2cb84a9d8ca9ed
+# Source0-md5:	9118cba82276f13e45885576b0a86d84
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
+BuildRequires:	perl-Apache-Session
 BuildRequires:	perl-HTML-Mason
 BuildRequires:	perl-HTML-Template-Extension
 %endif
