@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	MasonX
 %define		pnam	Request-HTMLTemplate
 Summary:	MasonX::Request::HTMLTemplate - add templates to the Mason Request object
